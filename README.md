@@ -3,7 +3,7 @@
 ## What is this project?
 I analyzed 50+ real phishing emails from PhishTank to understand 
 how attackers target financial institutions. This was a hands-on 
-project where I did everything manually — from checking email 
+project where I did everything manually from checking email 
 headers to scanning URLs on VirusTotal.
 
 ---
@@ -11,7 +11,7 @@ headers to scanning URLs on VirusTotal.
 ## Why I did this
 I kept reading about phishing being the #1 attack vector in fintech 
 and banking. I wanted to actually see what these emails look like, 
-how they're built, and how analysts detect them — not just read 
+how they're built, and how analysts detect them not just read 
 about it theoretically.
 
 ---
@@ -32,11 +32,11 @@ Most spoofed emails completely failed all three checks.
 
 **Step 3 — Checked every URL**
 Ran all suspicious links through VirusTotal. Found a lot of 
-obfuscated redirect chains — URLs that look harmless but 
+obfuscated redirect chains URLs that look harmless but 
 redirect 3-4 times before landing on a fake login page.
 
 **Step 4 — Documented everything**
-Extracted 30+ IOCs and noticed patterns — the same malicious 
+Extracted 30+ IOCs and noticed patterns the same malicious 
 domains kept appearing across different emails.
 
 ---
@@ -78,14 +78,14 @@ links that steal session tokens.
 Honestly the biggest thing I learned is how easy it is to 
 spoof an email when a domain has no DMARC policy. Most 
 small fintech companies don't have this configured properly 
-— which is a huge risk.
+ which is a huge risk.
 
 ---
 
 ## About me
 I'm Vaishnavi Dangeti, a cybersecurity student interested 
 in threat intelligence and blue team security. This project 
-was fully self-initiated — I wanted real hands-on experience 
+was fully self-initiated . I wanted real hands-on experience 
 beyond just certifications.
 
 GitHub: github.com/VaishnaviDangeti
