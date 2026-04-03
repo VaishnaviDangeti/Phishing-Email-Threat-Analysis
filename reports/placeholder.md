@@ -110,7 +110,7 @@ hijacking payloads designed to steal authentication tokens.
 
 ## Overall Summary
 
-| Campaign | Emails Analyzed | IOCs Found | Auth Failures |
+| Campaign | Emails Analyzed | IOCs Found | Authentication Failures |
 |----------|----------------|------------|---------------|
 | Credential Harvesting | 18 | 12 | SPF, DKIM, DMARC |
 | Invoice Fraud | 17 | 11 | SPF, DKIM, DMARC |
